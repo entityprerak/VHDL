@@ -1,0 +1,16 @@
+--
+-- VHDL Entity my_project1_lib.xnor_gate.arch_name
+--
+-- Created:
+--          by - Techlabs.UNKNOWN (DESKTOP-D382P7A)
+--          at - 17:46:50 01-03-2024
+--
+-- using Mentor Graphics HDL Designer(TM) 2023.3 Built on 9 Jul 2023 at 00:00:47
+--
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.std_logic_arith.all;
+
+ENTITY xnor_gate IS
+END ENTITY xnor_gate;
+
