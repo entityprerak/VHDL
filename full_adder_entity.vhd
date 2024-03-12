@@ -13,7 +13,7 @@ USE ieee.std_logic_arith.all;
 
 ENTITY full_adder IS
   port( a,b,c : in std_logic;
-    sum,carry : out std_logic
+    sum1,carry1 : out std_logic
       );     
 END ENTITY full_adder;
 architecture logic of full_adder is
@@ -22,10 +22,10 @@ begin
   process(a,b,c,xs,xc)
  
   begin 
-    xs <= (a xor b) xor c ;
+    xs <= (a xor b) xor c;
     xc <= ((a xor b) and c)or(a and b);
-    sum <= xs;
-    carry <= xc;
+    sum1 <= xs;
+    carry1 <= xc;
   end process;
 end logic; 
 
